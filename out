@@ -1,2 +1,25 @@
 mode: set
-tudai2021.com/Main.go:9.13,12.2 2 0
+tudai2021.com/model/Parser.go:10.44,22.20 8 1
+tudai2021.com/model/Parser.go:33.2,33.73 1 1
+tudai2021.com/model/Parser.go:22.20,23.23 1 1
+tudai2021.com/model/Parser.go:27.3,27.46 1 1
+tudai2021.com/model/Parser.go:31.3,31.135 1 1
+tudai2021.com/model/Parser.go:23.23,25.4 1 1
+tudai2021.com/model/Parser.go:27.46,29.4 1 1
+tudai2021.com/model/Parser.go:37.47,38.33 1 1
+tudai2021.com/model/Parser.go:41.2,41.21 1 1
+tudai2021.com/model/Parser.go:38.33,40.3 1 1
+tudai2021.com/model/Parser.go:44.62,45.24 1 1
+tudai2021.com/model/Parser.go:49.2,49.24 1 1
+tudai2021.com/model/Parser.go:52.2,52.54 1 1
+tudai2021.com/model/Parser.go:45.24,47.3 1 1
+tudai2021.com/model/Parser.go:49.24,51.3 1 1
+tudai2021.com/model/Parser.go:55.47,56.32 1 1
+tudai2021.com/model/Parser.go:61.2,61.12 1 1
+tudai2021.com/model/Parser.go:56.32,57.25 1 1
+tudai2021.com/model/Parser.go:57.25,59.4 1 1
+tudai2021.com/model/Parser.go:64.40,66.16 2 1
+tudai2021.com/model/Parser.go:69.2,69.12 1 1
+tudai2021.com/model/Parser.go:66.16,68.3 1 1
+tudai2021.com/model/Parser.go:74.51,76.2 1 1
+tudai2021.com/model/Parser.go:78.50,80.2 1 1

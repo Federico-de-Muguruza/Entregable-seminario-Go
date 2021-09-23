@@ -1,11 +1,9 @@
-package main
+package model
 
 import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-
-	"tudai2021.com/model"
 )
 
 func TestParser(t *testing.T) {
@@ -18,12 +16,15 @@ func TestParser(t *testing.T) {
 	}{
 		{"TX02AB", true, "TX", "AB", 2},
 		{"NN100987654321", true, "NN", "0987654321", 10},
-		// {"TX06ABCDE", false, "", "", },
-		{"NN04000A", false, "", "", 0},
+		{"TX05ABC5E", false, "TX", "ABC5E", 5},
+		{"NN04000A", false, "NN", "000A", 4},
+		{"TX06ABCDE", false, "TX", "ABCDE", 5},
+		{"TX0ZABCDE", false, "TX", "ABCDE", 5},
+		{"ZA03ABE", false, "ZA", "ABE", 3},
 	}
 
 	for _, c := range cases {
-		_, err := model.Parser(c.Input)
-		assert.Equal(t, err, nil, c.Success)
+		_, err := Parser(c.Input)
+		assert.Equal(t, err == nil, c.Success)
 	}
 }
